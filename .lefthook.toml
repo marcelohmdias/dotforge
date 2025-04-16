@@ -1,0 +1,3 @@
+[prepare-commit-msg.commands.lefthook]
+interactive = true
+run = "exec < /dev/tty && koji --hook || true"
